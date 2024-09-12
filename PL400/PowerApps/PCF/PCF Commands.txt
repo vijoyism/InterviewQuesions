@@ -1,0 +1,17 @@
+pac pcf init --namespace <<ComponentName>> --name <<ComponentName>> --template field
+
+ mkdir <<FolderName that resembles the solution name>>
+
+ cd <<FolderName that resembles the solution name>>
+
+ pac solution init --publisher-name <<PublisherName>> --publisher-prefix <<PublisherName>>
+
+ pac solution add-reference --path ..\
+
+ //The target "Cre ateManifestResourceNames" does not exist in the project
+msbuild /t:build /restore
+
+ //This will create a managed package
+msbuild /p:configuration=release
+
+ msbuild
