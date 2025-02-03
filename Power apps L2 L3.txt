@@ -1,3 +1,5 @@
+
+
 Canvas Apps
 1. What are the main components in the canvas app?
 2. How do you improve the performance of the canvas app?
@@ -7,4 +9,83 @@ Canvas Apps
 6. How do you submit the data from canvas apps? - Patch() and Submit()
 7. Can you load data from external sources into the canvas app?
 8. How you will make sure that your canvas app is ready for Offline use?
+9. What is a DataCard in the form?
+    -	Inside of the form, when you select a Field, that field is portrayed as a DataCard in the Tree view. Notice how each DataCard contains four different controls. The two most important controls in your DataCard are the label control, which will initially include the name DataCardKey, and the text input control, which will initially include the name DataCardValue. The other two controls are optional and depend on whether the data is required or not. The StarVisible is a text label with an asterisk in it that appears if you designate that field as required (either in your form or in the data). The ErrorMessage is another text label that appears if you try to submit a form and that input is missing. You can look at the Visible properties for these controls. Visible evaluates to: "true" or "false". The And() function you'll see in the StarVisible control means that both conditions, separated by a comma, must be true for the function to evaluate as "true".
+10. What is the difference between UX(User experience) and UI(User Interface)?
+
+11. How can Error Handling be implemented in Power Apps?
+Ans: To do so, first, we will have to get information about any errors through the Errors function. And then, through Validation and DataSourceInfo, 
+      some of the errors can be ignored even before they take place.
+      The Canvas App introduced the 'IfError' and 'isError' functions, to manage errors and display the appropriate message.
+      Formula-level error management must be enabled in order to use these features. To enable it, follow the steps below:
+      
+      •	To begin, start the Canvas App and choose File.
+      •	Under Settings, select Advanced Settings.
+      •	Allow for formula-level error management.
+
+ 
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Model Driven apps
+1. If I want to load an external data into the Model driven app, how to do that?
+2. How would you connect PowerApps to an external SQL database? Walk me through the steps.
+3. A company has a model-driven app form. Many users use the form. Users state that the form takes too long to fully load. 
+You need to evaluate the form design to improve loading performance. Which three control types can you use? Each correct answer presents a complete solution.
+4. What is the purpose of DLP policies?
+5. Describe a scenario where you chose Canvas apps over Model-driven apps. Why?
+5. In your experience, how have you managed user roles and permissions in a PowerApp?
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Power Automate
+1. What types of power automate flows you have implemented so far?
+2. What are the key elements of Power Automate flow?
+3. How do you trigger a power automate flow from a canvas app?
+4. How do you handle errors in the Power automate?
+5. Practical
+6. How do you manage connections in the PA?
+
+-----------------------------------------------------------------------------------------------------------------------------------
+Microsoft Dynamics CRM
+
+1. You develop a model-driven app to include a form containing several columns. Two groups of users, named Group1 and Group2, will access the form.
+A column contains sensitive data that should not be read by Group2. Group1 must be able to access the column.
+You need to prevent Group2 users from viewing the sensitive data.
+What should you do?
+
+2. What is the significance of the Secondary Entity in Plug-in Registration Tool while Registering Plug-In
+3. When an infinite loop occurs in a plugin. How do you avoid infinite loops in the plugin code?
+4. What are the different operation (Pre Validation, Preoperation & Post operation) in Plugin?
+5. How will you send parameters to the plugin code
+6. What are different ways (QueryExpression, LINQ, FetchXML) to fetch CRM metadata in Plugin? Difference between them?
+7. How do you register a plugin in the online CRM version?
+8. What is Azure Aware Plugins?
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+JavaScript
+1. What are the client side events available in the model driven apps?
+2. What is type conversion in JavaScript
+3. What is the difference between var and let in JavaScript variable declarations?
+Practical method implementation.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+.Net
+1. What are the OOPs concepts use in Dynamics CRM? Tell me with examples?
+2. Tell me any Example of Inheritance in Dynamics CRM?
+3. Can be field security enabled field accessible from Plugin Pre-Images
+4. Which will run first Synchronous Workflow (Real-Time Workflow) or Synchronous Plugin?
+5. What are generics in C#?
+
+-----------------------------------------------------------------------------------------------------------------------------------
+PCF components
+1. What are the lifecyle methods of a PCF component?
+2. How do get the input to the PCF component?
+3. How do you get the output from a PCF component?
+4. What are the pre-requisites to build a PCF?
+5. How the PCF is integrated into a app?
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+SDLC
 
