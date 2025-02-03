@@ -67,6 +67,7 @@ JavaScript
 1. What are the client side events available in the model driven apps?
 2. What is type conversion in JavaScript
 3. What is the difference between var and let in JavaScript variable declarations?
+4. Difference ways to declare the variables in JavaScript
 Practical method implementation.
 
 -----------------------------------------------------------------------------------------------------------------------------------
