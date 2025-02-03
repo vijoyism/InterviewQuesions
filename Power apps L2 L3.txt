@@ -1,0 +1,10 @@
+Canvas Apps
+1. What are the main components in the canvas app?
+2. How do you improve the performance of the canvas app?
+3. What is delegation in the canvas app?
+4. In PowerApps, how do you define or use a local or global variable? - updateContext and set
+5. Can you make the canvas apps more responsive?  - Containers
+6. How do you submit the data from canvas apps? - Patch() and Submit()
+7. Can you load data from external sources into the canvas app?
+8. How you will make sure that your canvas app is ready for Offline use?
+
